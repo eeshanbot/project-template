@@ -41,4 +41,4 @@ This folder holds *scripts*. These scripts access data from `data` and functions
 This folder holds figures, tables, etc, that you may want to decouple from the processing pipeline. You can always automate this with a symbolic link.
 
 #### doc
-This folder holds LaTeX code, makefiles, bib files, etc for eventual journal submission. Sometimes I like to add a `journal` folder and write entries in Markdown. If that's of interest to you, this is a nice [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/). 
+This folder holds LaTeX code, makefiles, bib files, etc for eventual journal submission. Sometimes I like to add a `journal` folder and write entries in Markdown; this is a nice [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/). 
