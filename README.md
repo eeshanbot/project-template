@@ -8,6 +8,8 @@ Welcome to my project template! I see automation and transparency as key compone
 - Interoperability
 - Reusability
 
+As this is a GitHub "template", the best way to use it is to download to your own computer or click "use template". 
+
 ## structure
 
 #### data
