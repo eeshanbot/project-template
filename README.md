@@ -2,7 +2,7 @@
 @eeshanbot's project template for organized exploratory computational research
 
 ## welcome
-Welcome to my project template! I see automation and transparency as key components for folowing [FAIR](https://www.nature.com/articles/sdata201618) data principles:
+Welcome to my project template! I see automation and transparency as key components for following [FAIR](https://www.nature.com/articles/sdata201618) data principles:
 - Findability
 - Accessibility
 - Interoperability
