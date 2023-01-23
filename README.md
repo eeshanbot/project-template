@@ -19,7 +19,7 @@ This folder holds local data. This is a *read-only* folder. I will put project s
 This folder holds *functions*. I like to use the following syntax. I put anything into a function that I might use more than once.
 
 ###### function calls
-All functions start with `eb_` for autocompletion (eager beaver). They are then followed by one of:
+Helper functions tend to start with `eb_` for autocompletion (eager beaver). They are then followed by one of:
 * `view_` = makes a figure (does not save it automatically)
 * `get_` = runs a small computation
 * `compute_` = runs a large computation
@@ -35,7 +35,10 @@ All functions start with `eb_` for autocompletion (eager beaver). They are then 
 * iterator = `iVal, iSamples` or `kk,mm,nn...`
 
 #### pipeline
-This folder holds *scripts*. These scripts access data from `data` and functions from `src`. Each script or collection of scripts lives in an aptly named sub-folder based on the desired task.
+This folder holds *scripts*. These scripts access data from `data` and functions from `src`. Each script or collection of scripts lives in an aptly named sub-folder based on the desired task. Scripts are named with the following prefixes:
+* `io` = a simple input/output script
+* `v` = viewer
+* `p` = process
 
 #### results
 This folder holds figures, tables, etc, that you may want to decouple from the processing pipeline. You can always automate this with a symbolic link.
